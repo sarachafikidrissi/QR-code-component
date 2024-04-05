@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(47, 88%, 63%);
+
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display:  flex;
+    flex-flow: column;
+    width: 30%;
+    height: 40%;
+
+    margin: 4rem auto;
+    padding: 0.8rem;
+
+    border-radius: 0.8rem;
+    border: 1px black solid;
+    box-shadow: 10px 10px;
+    
+    
+}
+
+.image-1 {
+    width: 100%;
+    margin-bottom: 0.4rem;
+    border-radius: 0.8rem;
+}
+
+
+button {
+    border: none;
+    border-radius: 0.3rem;
+    background-color: hsl(47, 88%, 63%);
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+button:hover {
+    background-color: hsl(47, 90%, 52%);
+}
+.image-2 {
+    width: 40px;
+    height: 40px;
+}
+
+.container h1 {
+    margin-bottom: 0;
+}
+.container p {
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+}
+.profile {
+    display: flex;
+}
+.profile span {
+    font-weight: bold;
+    padding: 0.8rem;
+}
+
+
+@media screen and (max-width: 760px) {
+
+    .container {
+        width: 45%;
+        padding: 0.8rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .container {
+        width: 45%;
+
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .container {
+        width: 60%;
+
+    }
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+
+    .container {
+        margin-right: 30px;
+        width: 70%;
+
+    }
+    h1 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 5px;
+    }
+}
